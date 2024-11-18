@@ -7,6 +7,7 @@ This repository explores a consensus-based framework for assessing the correctne
 ## **Repository Structure**
 
 ### 1. **Code**  
+
 Contains all the codes required for data processing, training, inference, and evaluation:  
 - **`train`**: Code for fine-tuning using LoRA and GeLoRA.  
 - **`inference`**: Code for performing inference on validation and test sets.  
@@ -21,17 +22,21 @@ Contains all the codes required for data processing, training, inference, and ev
 ---
 
 ### 2. **EDA**  
+
 Contains figures generated during exploratory data analysis (EDA) on both the training and test datasets. These visualizations provide insights into data distribution, token lengths, and more.
 
 ---
 
 ### 3. **Report**  
+
 Contains the project report in PDF format, detailing the framework, methodology, experiments, and results.
 
 ---
 
 ### 4. **Scripts**  
+
 Executable scripts to launch training and inference pipelines. 
+
 ---
 
 ### 5. **Training Logs**  
@@ -40,22 +45,26 @@ Stores logs generated during the training phase, capturing information about los
 ---
 
 ### 6. **Validation Log and Plot**  
+
 - **Log**: Training log recorded during training for analysis and debugging.  
 - **Plot**: Validation and training loss plot across steps for performance monitoring.
 
 ---
 
 ### 7. **Validation Predictions**  
+
 Contains CSV files with predictions made on the validation set during inference.
 
 ---
 
 ### 8. **Test Predictions**  
+
 Contains CSV files with predictions made on the test set during inference.
 
 ---
 
 ### 5. **Training Plots**  
+
 Stores plots of training loss and gradient norm across steps for performance and stability monitoring.
 
 
@@ -64,6 +73,7 @@ Stores plots of training loss and gradient norm across steps for performance and
 ## **Usage**
 
 ### **Dependencies**  
+
 Before running any scripts, ensure you have the following dependencies installed:  
 - Python 3.8+  
 - PyTorch  
@@ -123,8 +133,8 @@ This project is licensed under the MIT License. See `LICENSE` for more details.
 
 ## **Contact**  
 For questions or collaborations, reach out to:  
-**[Abdessalam Ed-dib]**  
-Email: [ae2842@nyu.edu]  
-GitHub: [https://github.com/abdessalam-eddib/] 
+**Abdessalam Ed-dib**  
+Email: ae2842@nyu.edu
+GitHub: https://github.com/abdessalam-eddib/
 
 Happy fact-checking! 🚀
